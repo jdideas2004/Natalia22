@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday! 🎉</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Confetti Canvas -->
+        <canvas id="confetti-canvas"></canvas>
+        
+        <!-- Sound Permission Modal -->
+        
+        
+        <!-- Navigation -->
+        <nav class="navigation">
+            <div class="nav-item active" data-page="memories">
+                <i class="fas fa-heart"></i>
+                <span>Memories</span>
+            </div>
+            <div class="nav-item" data-page="wishes">
+                <i class="fas fa-star"></i>
+                <span>Wishes</span>
+            </div>
+            <div class="nav-item" data-page="surprise">
+                <i class="fas fa-gift"></i>
+                <span>Surprise</span>
+            </div>
+        </nav>
+
+        <!-- Page 1: Home -->
+        <!-- <div class="page active" id="home">
+            <header class="header">
+                <div class="birthday-text">
+                    <h1 class="main-title">Feliz Cumpleaños mi  <br>😚Vida😚</h1>
+                    <h2 class="name-title">💖 My Princesa 💖</h2>
+                </div>
+            </header> -->
+
+            <!-- Interactive Cards Section -->
+            <!-- <section class="cards-section">
+                <div class="card" data-card="1">
+                    <div class="card-content">
+                        <i class="fas fa-birthday-cake"></i>
+                        <h3>Hoy es tu dia</h3>
+                        <p>😚El dia mas especial y importante del mundo😚</p>
+                        <p>😚El dia en el que naciste😚</p>
+                        <p>😚El dia en el que te convertiste en mi Princesa😚</p>
+                        <p>😚El dia en el que te convertiste en mi vida😚</p>
+                    </div>
+                </div>
+                
+                <div class="card" data-card="2">
+                    <div class="card-content">
+                        <i class="fas fa-heart"></i>
+                        <h3>Felicidad</h3>
+                        <p>💖Tu eres la persona mas especial en mi vida💖</p>
+                        <p>💖la que me hace sentir bien💖</p>
+                        <p>💖la que me hace sentir feliz💖</p>
+                        <p>💖la que me hace sentir completo💖</p>
+                        <p>💖la que me hace sentir que puedo ser mejor💖</p>
+                        <p>💖la que me hace sentir que puedo ser mas fuerte💖</p>
+                        <p>💖la que me hace sentir que puedo ser mas inteligente💖</p>        
+                    </div>
+                </div>
+                
+                <div class="card" data-card="3">
+                    <div class="card-content">
+                        <i class="fas fa-star"></i>
+                        <h3>Increible</h3>
+                        <p>🤍Tu eres la persona mas increible que he conocido🤍</p>
+                        <p>🤍Tu eres la persona mas hermosa que he conocido🤍</p>
+                        <p>🤍Tu eres la persona mas inteligente que he conocido🤍</p>
+                    </div>
+                </div>
+            </section> -->
+
+            <!-- Animated Elements -->
+            <div class="eiffel-tower">
+                <div class="tower-base"></div>
+                <div class="tower-middle"></div>
+                <div class="tower-top"></div>
+                <div class="tower-antenna"></div>
+            </div>
+
+            <div class="moon">
+                <div class="moon-surface"></div>
+                <div class="moon-crater crater-1"></div>
+                <div class="moon-crater crater-2"></div>
+                <div class="moon-crater crater-3"></div>
+            </div>
+        </div>
+
+        <!-- Page 2: Memories -->
+        
+        <div class="page active" id="memories">
+            <div class="page-header">
+                <div class="birthday-text">
+                    <h1 class="main-title">Feliz Cumpleaños <br>😚 mi Vida😚</h1>
+                    <h2 class="name-title">💖 My Princesa 💖</h2>
+                </div>
+                <h2>Nuestra Historia</h2>
+                <p>Momentos que hacen mi corazón sonreír</p>
+            </div>
+
+            <div class="memories-grid">
+                <div class="memory-item">
+                    <div class="memory-photo" style="height: auto; min-height: 200px;">
+                        <img src="IMG_7881 2.jpg" alt="Our beautiful memory" style="width: 100%; height: 100%; object-fit: contain; border-radius: 10px;">
+                    </div>
+                    <div class="memory-text">
+                        <h4>La Primera Salida</h4>
+                        <p>Recuerdas la primera vez que salimos solos? Que magico momento cuando todo cambio</p>
+                    </div>
+                </div>
+
+                <div class="memory-item">
+                    <div class="memory-photo" style="height: 200px; background: transparent;">
+                        <img src="IMG_8435.PNG" alt="Sweet moments" style="width: 100%; height: 100%; object-fit: cover; border-radius: 10px;">
+                    </div>
+                    <div class="memory-text">
+                        <h4>Nuestra Primera sesion de estudio</h4>
+                        <p>Te acuerdas de la primera vez que nos pusimos a estudiar? Nunca me habia sentido tan feliz por estudiar con alguien hasta que te conoci</p>
+                    </div>
+                </div>
+
+                <div class="memory-item">
+                    <div class="memory-photo" style="height: 200px; background: transparent;">
+                        <img src="61603799 2.jpg" alt="Laughter & joy" style="width: 100%; height: 100%; object-fit: cover; border-radius: 10px;">
+                    </div>
+                    <div class="memory-text">
+                        <h4>Nuestra primera salida virtual</h4>
+                        <p>La vez que se fue tu familia con los Diaz, Y la pasamos todo el dia por video llamada y hablando de todo🙈</p>
+                    </div>
+                </div>
+
+                <div class="memory-item">
+                    <div class="memory-photo" style="height: auto; min-height: 200px;">
+                        <img src="494d2e1f-b44c-4607-927e-7f766e0149f4.JPG" alt="Romantic nights" style="width: 100%; height: 100%; object-fit: contain; border-radius: 10px;">
+                    </div>
+                    <div class="memory-text">
+                        <h4>Hermosa</h4>
+                        <p>Natalia yo reconozco que eres hermosisima, cada foto que tomamos es una obra de arte, y esta es una de las mejores</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Page 3: Wishes -->
+        <div class="page" id="wishes">
+            <!-- <div class="page-header">
+                <h2>Birthday Wishes</h2>
+                <p>From the bottom of my heart</p>
+            </div>
+
+            <div class="wishes-container">
+                <div class="wish-item">
+                    <span class="wish-emoji">🎂</span>
+                    <span class="wish-text">May all your dreams come true this year!</span>
+                </div>
+                <div class="wish-item">
+                    <span class="wish-emoji">🌟</span>
+                    <span class="wish-text">Another year of amazing adventures together!</span>
+                </div>
+                <div class="wish-item">
+                    <span class="wish-emoji">💝</span>
+                    <span class="wish-text">You deserve all the happiness in the world!</span>
+                </div>
+                <div class="wish-item">
+                    <span class="wish-emoji">🎈</span>
+                    <span class="wish-text">Celebrate this special day with joy!</span>
+                </div>
+                <div class="wish-item">
+                    <span class="wish-emoji">🌈</span>
+                    <span class="wish-text">May your year be filled with colorful moments!</span>
+                </div>
+                <div class="wish-item">
+                    <span class="wish-emoji">💖</span>
+                    <span class="wish-text">Thank you for being the amazing person you are!</span>
+                </div>
+            </div> -->
+
+            <div class="personal-message">
+                <h3>🙊Mi Mensaje Personal🙊</h3>
+                <div class="message-box">
+                    <p id="dynamic-message">Apreta el corazon para revelar un mensaje especial! 💕</p>
+                    <button class="message-btn" onclick="revealMessage()">
+                        <i class="fas fa-heart"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Page 4: Surprise -->
+        <div class="page" id="surprise">
+            <div class="page-header">
+                <h2>🎁Sorpresa Especial🎁</h2>
+                <p>Algo solo para ti</p>
+            </div>
+
+            <div class="surprise-content">
+                <div class="surprise-box">
+                    <div class="box-lid">
+                        <div class="ribbon"></div>
+                    </div>
+                    <div class="box-content">
+                        <h3>🎁</h3>
+                        <p>apreita el regalo</p>
+                    </div>
+                </div>
+
+                <div class="surprise-message" id="surprise-message" style="display: none;">
+                    <h3>Tu eres mi regalo mas preciado</h3>
+                    <p>Cada dia con ti es una celebracion. Feliz cumpleaños a la persona mas maravillosa en mi vida</p>
+                    <div class="celebration-emojis">
+                        <span>🤍</span>
+                        <span>😚</span>
+                        <span>Mi Princesa</span>
+                        <span>😚</span>
+                        <span>💖</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Floating Elements -->
+        <div class="balloons">
+            <div class="balloon balloon-1">🎈</div>
+            <div class="balloon balloon-2">🎈</div>
+            <div class="balloon balloon-3">🎈</div>
+            <div class="balloon balloon-4">🎈</div>
+            <div class="balloon balloon-5">🎈</div>
+        </div>
+
+        <div class="floating-hearts">
+            <div class="heart heart-1">💖</div>
+            <div class="heart heart-2">💕</div>
+            <div class="heart heart-3">💗</div>
+            <div class="heart heart-4">💝</div>
+        </div>
+
+        <!-- Background Music Audio -->
+        
+
+        <!-- Music Control Button (only shows when music is enabled) -->
+        <div class="music-control" id="music-control" style="display: none;">
+            <button class="music-toggle" id="music-toggle">
+                <i class="fas fa-music"></i>
+            </button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
